@@ -36,7 +36,7 @@ title: Britny Chambers
     <section id="about" class="about container">
       <h2>About Me</h2>
       <p>Hello — I'm a data scientist with experience in exploratory data analysis, modeling, and communicating results to stakeholders. I enjoy working end-to-end: cleaning data, building models, and deploying solutions.</p>
-  <p>As a former factory worker, and a current single mother, factory work was getting the bills paid, but left little to nothing to enjoy life with my kids the way I have always expected to. Seeing ads online for IT work was the calling I had been waiting for. Not knowing much about the science aspect of IT, but loving to work with computers, I knew this would be the perfect fit for me! When I first talked to an advisor for TripleTen, I knew Data Science was the right choice for me! I love dealing with words, numbers, graphs, and the fact that I will be soon helping companies to assess some goals in their future! I have made a LinkedIn profile to start displaying my projects! <a href="https://www.linkedin.com/in/britny-chambers-562096327" target="_blank" rel="noopener" title="Britny Chambers on LinkedIn">My LinkedIn</a></p>
+  <p>As a former factory worker, and a current single mother, factory work was getting the bills paid, but left little to nothing to enjoy life with my kids the way I have always expected to. Seeing ads online for IT work was the calling I had been waiting for. Not knowing much about the science aspect of IT, but loving to work with computers, I knew this would be the perfect fit for me! When I first talked to an advisor for TripleTen, I knew Data Science was the right choice for me! I love dealing with words, numbers, graphs, and the fact that I will be soon helping companies to assess some goals in their future! I have made a LinkedIn profile to start displaying my projects!</p>
     </section>
 
    <section id="skills" class="skills container">
@@ -104,12 +104,14 @@ title: Britny Chambers
   </main>
 
   <footer id="contact" class="site-footer">
-    <div class="container">
-      <h2>Contact</h2>
-  <p>Want to work together? Email: <a href="mailto:britny1018@gmail.com">britny1018@gmail.com</a></p>
-  <p class="muted">Resume: <a href="./BritsResume.pdf" target="_blank" rel="noopener">Open Britny Chambers' Resume</a></p>
-    </div>
-  </footer>
+  <div class="container">
+    <h2>Let’s Connect</h2>
+    <p><strong>Email:</strong> <a href="mailto:britny1018@gmail.com">britny1018@gmail.com</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/BritCoin09" target="_blank" rel="noopener">BritCoin09</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/britny-chambers-562096327" target="_blank" rel="noopener">Britny Chambers</a></p>
+    <p><strong>Resume:</strong> <a href="./BritsResume.pdf" target="_blank" rel="noopener">Download Resume</a></p>
+  </div>
+</footer>
 
   <script>
     const sections = document.querySelectorAll("section");
