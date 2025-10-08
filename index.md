@@ -2,7 +2,7 @@
 layout: default
 title: Britny Chambers
 ---
-<!doctype html>
+<!doctype md>
 <html lang="en">
 <head>
   <meta charset="utf-8">
