@@ -1,24 +1,25 @@
 /* Basic styles for the portfolio sample */
-:root{
-  --accent:#0066cc;
-  --bg:#f7f9fc;
-  --text:#222;
-  --muted:#666;
+:root {
+  --accent: #6a0dad;
+  --bg: #1e1b2e;   
+  --text: #f5f5f5;  
+  --muted: #c084fc;  
 }
+
 *{box-sizing:border-box}
 body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;margin:0;color:var(--text);background:var(--bg);line-height:1.5}
 .container{max-width:1000px;margin:0 auto;padding:1.5rem}
-.site-header{background:#fff;border-bottom:1px solid #e6eef7}
+.site-header {background: #2a2340; border-bottom: 1px solid #3b2f5e}
 .header-inner{display:flex;align-items:center;justify-content:space-between}
 .site-name{font-size:1.25rem;margin:0;padding:0.75rem 0}
 .main-nav ul{list-style:none;margin:0;padding:0;display:flex;gap:1rem}
 .main-nav a{text-decoration:none;color:var(--text);padding:0.5rem}
 .main-nav a:hover{color:var(--accent)}
-.hero{background:linear-gradient(90deg,rgba(0,102,204,0.08),transparent);padding:3rem 0}
+.hero {background: linear-gradient(90deg, #3b2f5e, #6a0dad); padding: 3rem 0; color: #f5f5f5}
 .hero-inner{display:flex;flex-direction:column;gap:1rem}
-.hero h2{font-size:2rem;margin:0}
-.lead{font-size:1.05rem;color:var(--muted)}
-.btn{display:inline-block;background:var(--accent);color:#fff;padding:0.5rem 0.9rem;border-radius:6px;text-decoration:none}
+.hero h2 {font-size: 2rem; margin: 0; color: #f5f5f5}
+.lead {font-size: 1.05rem; color: #c084fc}
+.btn {background: var(--accent); color: #fff}
 .about{background:#fff;border-radius:8px;padding:1.25rem;margin-top:1.25rem}
 .skills{margin-top:1.25rem}
 .skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-top:1rem}
