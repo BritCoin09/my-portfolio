@@ -26,7 +26,6 @@ title: Britny Chambers
  <section id="hero" class="hero">
   <div class="hero-banner-wrapper">
     <img src="plasma_globe.jpg" alt="Plasma globe banner" class="hero-banner">
-    <h1 class="hero-name">Britny Chambers</h1>
   </div>
 </section>
 
