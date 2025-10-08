@@ -1,4 +1,6 @@
-/* Basic styles for the portfolio sample */
+html {
+  scroll-behavior: smooth;
+}
 :root {
   --accent: #6a0dad;
   --bg: #1e1b2e;   
@@ -7,6 +9,21 @@
 }
 
 *{box-sizing:border-box}
+<script>
+  const sections = document.querySelectorAll("section");
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+      }
+    });
+  }, { threshold: 0.1 });
+
+  sections.forEach(section => {
+    observer.observe(section);
+  });
+</script>
+
 body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;margin:0;color:var(--text);background:var(--bg);line-height:1.5}
 .container{max-width:1000px;margin:0 auto;padding:1.5rem}
 .site-header {background: #2a2340; border-bottom: 1px solid #3b2f5e}
@@ -61,7 +78,8 @@ body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;margin:0;color:var(--tex
 .skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-top:1rem}
 .skill-card {background: #2a2340; color: #f5f5f5; padding: 1rem; border-radius: 8px; border: 1px solid #3b2f5e}
 .skill-card h3{margin-top:0}
-.site-footer{margin-top:2rem;padding:1.5rem 0;background:transparent}
+.site-footer {background: #3b2f5e; color: #f5f5f5; padding: 2rem 1.5rem; margin-top: 2rem}
+
 .skill-card:hover {border-color: var(--accent); background: #3b2f5e}
 .muted{color:var(--muted);font-size:0.95rem}
 
