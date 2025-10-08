@@ -16,7 +16,7 @@ body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;margin:0;color:var(--tex
 .main-nav a{text-decoration:none;color:var(--text);padding:0.5rem}
 .main-nav a:hover{color:var(--accent)}
 .hero {background: linear-gradient(90deg, #3b2f5e, #6a0dad); padding: 3rem 0; color: #f5f5f5}
-.hero-inner{display:flex;flex-direction:column;gap:1rem}
+.hero-inner {position: relative; padding: 2rem; background-color: rgba(0, 0, 0, 0.4); color: white}
 .hero h2 {font-size: 2.5rem; text-align: center; background: linear-gradient(90deg, #c084fc, #6a0dad); -webkit-background-clip: text; -webkit-text-fill-color: transparent}
 .lead {font-size: 1.05rem; color: #c084fc}
 .btn {background: var(--accent); color: #fff}
