@@ -9,21 +9,6 @@ html {
 }
 
 *{box-sizing:border-box}
-<script>
-  const sections = document.querySelectorAll("section");
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("visible");
-      }
-    });
-  }, { threshold: 0.1 });
-
-  sections.forEach(section => {
-    observer.observe(section);
-  });
-</script>
-
 body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;margin:0;color:var(--text);background:var(--bg);line-height:1.5}
 .container{max-width:1000px;margin:0 auto;padding:1.5rem}
 .site-header {background: #2a2340; border-bottom: 1px solid #3b2f5e}
