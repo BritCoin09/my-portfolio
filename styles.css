@@ -5,7 +5,8 @@ html {
   --accent: #6a0dad;
   --bg: #1e1b2e;   
   --text: #f5f5f5;  
-  --muted: #c084fc;  
+  --muted: #c084fc;
+  --salmon: #fa8072;
 }
 
 *{box-sizing:border-box}
@@ -78,6 +79,16 @@ body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;margin:0;color:var(--tex
   text-align: center;
 }
 
+.site-footer p {
+  margin: 0.5rem 0;
+}
+
+.site-footer a {
+  font-size: 1.05rem;
+}
+
+
+
 
 .skill-card:hover {border-color: var(--accent); background: #3b2f5e}
 .muted{color:var(--muted);font-size:0.95rem}
@@ -93,6 +104,13 @@ section.visible {
   transform: translateY(0);
 }
 
+.site-footer a {
+  color: var(--salmon);
+}
+
+.site-footer a:hover {
+  color: var(--accent);
+}
 
 @media (max-width:600px){
   .header-inner{flex-direction:column;align-items:flex-start}
