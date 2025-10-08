@@ -26,7 +26,7 @@ title: Britny Chambers
 
   <section id="hero" class="hero">
   <div class="container hero-inner">
-   <img src="726z_big_data_long_set8_0026.jpg" alt="Britny Chambers banner" class="hero-banner">
+   <img src="hal-gatewood-OgvqXGL7XO4-unsplash.jpg" alt="Britny Chambers banner" class="hero-banner">
       <h2> Welcome! </h2>
   <p class="lead">I'm <strong>Britny Chambers</strong>, a data scientist who loves turning data into actionable insights and building models that solve real problems.</p>
       <a class="btn" href="#about">Learn more</a>
