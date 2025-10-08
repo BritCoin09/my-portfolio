@@ -9,6 +9,7 @@ title: Britny Chambers
   <title>My Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <header class="site-header">
     <div class="container header-inner">
@@ -110,5 +111,19 @@ title: Britny Chambers
     </div>
   </footer>
 
+  <script>
+    const sections = document.querySelectorAll("section");
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    }, { threshold: 0.1 });
+
+    sections.forEach(section => {
+      observer.observe(section);
+    });
+  </script>
 </body>
 </html>
