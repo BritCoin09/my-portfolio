@@ -15,7 +15,43 @@ body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;margin:0;color:var(--tex
 .main-nav ul{list-style:none;margin:0;padding:0;display:flex;gap:1rem}
 .main-nav a{text-decoration:none;color:var(--text);padding:0.5rem}
 .main-nav a:hover{color:var(--accent)}
-.hero {background: linear-gradient(90deg, #3b2f5e, #6a0dad); padding: 3rem 0; color: #f5f5f5}
+.hero {
+  position: relative;
+  background: linear-gradient(90deg, #3b2f5e, #6a0dad);
+  padding: 0;
+  overflow: hidden;
+}
+
+.hero-banner-wrapper {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.hero-banner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: pulseGlow 3s infinite;
+  filter: brightness(0.8);
+}
+
+.hero-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: #f5f5f5;
+  text-shadow: 0 0 10px #6a0dad, 0 0 20px #c084fc;
+  z-index: 2;
+}
+
+@keyframes pulseGlow {
+  0% { filter: brightness(0.8); }
+  50% { filter: brightness(1.1); }
+  100% { filter: brightness(0.8); }
+}
 .hero-inner {position: relative; padding: 2rem; background-color: rgba(0, 0, 0, 0.4); color: white}
 .hero h2 {font-size: 2.5rem; text-align: center; background: linear-gradient(90deg, #c084fc, #6a0dad); -webkit-background-clip: text; -webkit-text-fill-color: transparent}
 .lead {font-size: 1.05rem; color: #c084fc}
