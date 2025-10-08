@@ -6,13 +6,12 @@ title: Britny Chambers
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Portfolio - Britny Chambers</title>
+  <title>My Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-  <h1 class="site-name">Britny Chambers</h1>
       <nav class="main-nav" aria-label="Main navigation">
         <ul>
           <li><a href="#hero">Home</a></li>
@@ -40,11 +39,11 @@ title: Britny Chambers
   <p>As a former factory worker, and a current single mother, factory work was getting the bills paid, but left little to nothing to enjoy life with my kids the way I have always expected to. Seeing ads online for IT work was the calling I had been waiting for. Not knowing much about the science aspect of IT, but loving to work with computers, I knew this would be the perfect fit for me! When I first talked to an advisor for TripleTen, I knew Data Science was the right choice for me! I love dealing with words, numbers, graphs, and the fact that I will be soon helping companies to assess some goals in their future! I have made a LinkedIn profile to start displaying my projects! <a href="https://www.linkedin.com/in/britny-chambers-562096327" target="_blank" rel="noopener" title="Britny Chambers on LinkedIn">My LinkedIn</a></p>
     </section>
 
-    <section id="skills" class="skills container">
+   <section id="skills" class="skills container">
       <h2>Skills</h2>
       <p>Below are some data science skills and tools I use:</p>
 
-      <div class="skills-grid">
+  <div class="skills-grid">
         <div class="skill-card">
           <h3>Languages & Libraries</h3>
           <ul>
@@ -55,7 +54,7 @@ title: Britny Chambers
           </ul>
         </div>
 
-        <div class="skill-card">
+   <div class="skill-card">
           <h3>Data Manipulation & Storage</h3>
           <ul>
             <li>SQL</li>
@@ -64,7 +63,7 @@ title: Britny Chambers
           </ul>
         </div>
 
-        <div class="skill-card">
+  <div class="skill-card">
           <h3>Visualization</h3>
           <ul>
             <li>Matplotlib / Seaborn</li>
@@ -73,7 +72,7 @@ title: Britny Chambers
           </ul>
         </div>
 
-        <div class="skill-card">
+  <div class="skill-card">
           <h3>Modeling & ML</h3>
           <ul>
             <li>Supervised &amp; Unsupervised Learning</li>
@@ -83,7 +82,7 @@ title: Britny Chambers
           </ul>
         </div>
 
-        <div class="skill-card">
+   <div class="skill-card">
           <h3>Deployment & Tools</h3>
           <ul>
             <li>Docker</li>
@@ -92,7 +91,7 @@ title: Britny Chambers
           </ul>
         </div>
 
-        <div class="skill-card">
+  <div class="skill-card">
           <h3>Statistics & Math</h3>
           <ul>
             <li>Probability &amp; Statistics</li>
