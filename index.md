@@ -25,8 +25,9 @@ title: Britny Chambers
   </header>
 
   <section id="hero" class="hero">
-    <div class="container hero-inner">
-      <h2>Welcome!</h2>
+  <div class="container hero-inner">
+    <img src="images/726z_big_data_long_set8_0026.jpg" alt="Britny Chambers banner" class="hero-banner">
+      <h2> Welcome! </h2>
   <p class="lead">I'm <strong>Britny Chambers</strong>, a data scientist who loves turning data into actionable insights and building models that solve real problems.</p>
       <a class="btn" href="#about">Learn more</a>
   <a class="btn btn-outline" href="./BritsResume.pdf" target="_blank" rel="noopener">Download Resume</a>
