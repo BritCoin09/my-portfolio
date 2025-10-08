@@ -106,10 +106,10 @@ title: Britny Chambers
   <footer id="contact" class="site-footer">
   <div class="container">
     <h2>Let’s Connect</h2>
-    <p><strong>Email:</strong> <a href="mailto:britny1018@gmail.com">britny1018@gmail.com</a></p>
-    <p><strong>GitHub:</strong> <a href="https://github.com/BritCoin09" target="_blank" rel="noopener">BritCoin09</a></p>
-    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/britny-chambers-562096327" target="_blank" rel="noopener">Britny Chambers</a></p>
-    <p><strong>Resume:</strong> <a href="./BritsResume.pdf" target="_blank" rel="noopener">Download Resume</a></p>
+    <p>📧 <strong>Email:</strong> <a href="mailto:britny1018@gmail.com">britny1018@gmail.com</a></p>
+    <p>🧠 <strong>GitHub:</strong> <a href="https://github.com/BritCoin09" target="_blank" rel="noopener">BritCoin09</a></p>
+    <p>💼 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/britny-chambers-562096327" target="_blank" rel="noopener">Britny Chambers</a></p>
+    <p>📃 <strong>Resume:</strong> <a href="./BritsResume.pdf" target="_blank" rel="noopener">Download Resume</a></p>
   </div>
 </footer>
 
