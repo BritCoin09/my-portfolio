@@ -35,8 +35,12 @@ title: Britny Chambers
   <main>
     <section id="about" class="about container">
       <h2>About Me</h2>
-      <p>Hello — I'm a data scientist with experience in exploratory data analysis, modeling, and communicating results to stakeholders. I enjoy working end-to-end: cleaning data, building models, and deploying solutions.</p>
-  <p>As a former factory worker, and a current single mother, factory work was getting the bills paid, but left little to nothing to enjoy life with my kids the way I have always expected to. Seeing ads online for IT work was the calling I had been waiting for. Not knowing much about the science aspect of IT, but loving to work with computers, I knew this would be the perfect fit for me! When I first talked to an advisor for TripleTen, I knew Data Science was the right choice for me! I love dealing with words, numbers, graphs, and the fact that I will be soon helping companies to assess some goals in their future! I have made a LinkedIn profile to start displaying my projects!</p>
+      <p>About Me  
+I’m a data scientist with experience in exploratory data analysis, modeling, and communicating insights to stakeholders. I enjoy working end‑to‑end — from cleaning and structuring messy data to building models and delivering clear, actionable results.
+
+My path into data science is unconventional but intentional. After years of factory work as a single mother, I wanted a career that offered growth, creativity, and the chance to solve meaningful problems. I’ve always loved working with computers, and when I discovered TripleTen’s Data Science program, everything clicked. I realized how much I enjoy working with numbers, words, and visualizations to help organizations make smarter decisions.
+
+Today, I’m building projects that showcase my skills in Python, SQL, and data visualization, and I’m excited to contribute to teams that value clarity, collaboration, and impact.</p>
     </section>
 
    <section id="skills" class="skills container">
